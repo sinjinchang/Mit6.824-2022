@@ -29,7 +29,6 @@ func (a ByKey) Less(i, j int) bool { return a[i].Key < a[j].Key }
 //
 // Map functions return a slice of KeyValue.
 //
-
 //
 // use ihash(key) % NReduce to choose the reduce
 // task number for each KeyValue emitted by Map.
